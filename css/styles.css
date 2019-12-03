@@ -3,14 +3,17 @@ body {
     background-color: snow;
     font-family: fantasy;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/bruinsbackground.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
 }
 
 h2 {
-    color: black
+    color: white
 }
 
 .black-span {
-    color: black;
+    color:black;
 
 }
 
@@ -30,10 +33,10 @@ h1 {
 
 #new {
 
-    color: black;
+    color: white;
     font-style: italic;
     font-size: 2em;
-    border: 6px dotted black
+    border: 6px dotted white
 }
 
 img {
