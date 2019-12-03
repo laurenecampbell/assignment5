@@ -1,0 +1,90 @@
+body {
+    color: rgb(243, 187, 75);
+    background-color: snow;
+    font-family: fantasy;
+
+}
+
+h2 {
+    color: black
+}
+
+.black-span {
+    color: black;
+
+}
+
+.centered {
+
+    padding: 11px 11px 11px 11px;
+    border: 2px solid;
+    margin: 0 auto 0 auto;
+    width: 80%;
+
+}
+
+h1 {
+
+    text-transform: uppercase
+}
+
+#new {
+
+    color: black;
+    font-style: italic;
+    font-size: 2em;
+    border: 6px dotted black
+}
+
+img {
+
+    border: 6px dotted black
+}
+
+@media screen and (max-width:30rem) {
+    h1 {
+        color: black
+    }
+}
+
+.container {
+    display: flex;
+    /*    flex-direction:column; */
+    flex-wrap: wrap;
+}
+
+.item1 {
+
+    flex: 4;
+}
+
+.item2 {
+
+    flex: 4;
+}
+
+.item3 {
+
+    flex: 4;
+}
+
+.item4 {
+
+    flex: 4;
+}
+
+.styles {
+    display: flex;
+    justify-content: space-between;
+}
+
+main form {
+    display: flex;
+flex-direction: column;
+}
+main form p { 
+display: flex}
+main form p input{
+    flex: 1;
+    
+}
