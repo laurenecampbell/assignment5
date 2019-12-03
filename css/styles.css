@@ -2,7 +2,7 @@ body {
     color: rgb(243, 187, 75);
     background-color: snow;
     font-family: fantasy;
-
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/bruinsbackground.jpg);
 }
 
 h2 {
@@ -80,11 +80,14 @@ img {
 
 main form {
     display: flex;
-flex-direction: column;
+    flex-direction: column;
 }
-main form p { 
-display: flex}
-main form p input{
+
+main form p {
+    display: flex
+}
+
+main form p input {
     flex: 1;
-    
+
 }
